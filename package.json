@@ -1,0 +1,22 @@
+{
+  "name": "d8theme-gulp",
+  "version": "1.0.0",
+  "description": "Gulp dependencies for D8 starter theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwegiel/d8starter.git"
+  },
+  "author": "Krzysztof Wegiel",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglifyjs": "^0.6.2",
+    "imagemin-pngquant": "^4.2.0"
+  }
+}

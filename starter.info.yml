@@ -1,0 +1,17 @@
+name: D8starter
+description: Drupal 8 Starter Theme
+type: theme
+core: 8.x
+libraries:
+  - starter/bootstrap
+  - starter/global-components
+stylesheets-remove:
+  - core/themes/stable/css/views/views.module.css
+  - core/themes/stable/css/system/components/align.module.css
+
+regions:
+  header: 'Header'
+  navigation: 'Main Navigation'
+  content: 'Main Content'
+  sidebar: 'Sidebar'
+  footer: 'Footer'
